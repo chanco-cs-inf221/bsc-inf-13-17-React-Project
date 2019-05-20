@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+#guide{
+  font-size: 20px;
+}
+#myTitle{
+  font-size : 30px;
+  color: green;
+}
+form{
+  border: 2px solid white;
+  background-color: green;
+  color: white;
+}
+table{
+  width: 80%;
+  background-color: green;
+}
+table,th{
+  border : 2px solid white;
+    border-collapse: collapse;
+    color: white;
+}
+tr:hover{
+  background-color: darkblue;
+}
+tr:active{
+  background-color: purple;
+}
+tr:visited{
+  background-color: blue;
+}
+.appCreate input{
+  height: 20px;
+  width: 20%;
+}
+.appRUD input{
+  height: 20px;
+  width: 20%;
+}
+@media screen and (max-width : 700px){
+
+  .appCreate input{
+    height: 20px;
+    width: 20%;
+  }
+  .appRUD input{
+    height: 20px;
+    width: 20%;
+  }
+}
